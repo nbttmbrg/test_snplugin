@@ -4,4 +4,4 @@ instance:
   host: https://engiegbstest.service-now.com
 group_by:
   support_group:
-table: cmdb_ci
+table: cmdb_ci_server
