@@ -1,5 +1,7 @@
 plugin: servicenow.itsm.now
 columns: ["name", "u_identifier", "install_status", "fqdn", "ip_address", "u_environment", "manufacturer", "support_group", "sys_class_name", "u_os_family"]
+instance:
+  host: https://engiegbstest.service-now.com
 group_by:
   support_group:
 table: cmdb_ci
