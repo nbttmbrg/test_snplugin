@@ -1,3 +1,4 @@
 collections:
-- name: servicenow.itsm
-- name: community.general
+  - name: servicenow.itsm
+  - name: community.general
+    source: https://galaxy.ansible.com
