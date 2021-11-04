@@ -1,6 +1,6 @@
 collections:
   - name: servicenow.itsm
   - name: https://github.com/ansible-collections/community.general.git
-    type: git+file
+    type: git
   #/var/lib/awx/custom_collection/community-general-4.0.0.tar.gz
  
