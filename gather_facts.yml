@@ -1,6 +1,10 @@
 - hosts: all
   gather_facts: false
   tasks:
+  - name: hang
+    pause:
+      minutes: 30
   - name: gather_facts
     gather_facts:
+  
   
